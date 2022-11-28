@@ -4,20 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2d83fda-6b11-4626-897a-031b6f5daf90" name="Changes" comment="basic scala exercises">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/AbstractDataTypes.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/Inheritance.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/MethodNoations.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/OOBasics.scala" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/Objects.scala" afterDir="false" />
+    <list default="true" id="e2d83fda-6b11-4626-897a-031b6f5daf90" name="Changes" comment="oop scala exercises">
+      <change afterPath="$PROJECT_DIR$/src/main/scala/exercises/MyList.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lecture1/part1basics/CBNvsCBV.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/CBNvsCBV.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lecture1/part1basics/DefaultArgs.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/DefaultArgs.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lecture1/part1basics/Expressions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/Expressions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lecture1/part1basics/Functions.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/Functions.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lecture1/part1basics/Recursion.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/Recursion.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lecture1/part1basics/StringOps.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/StringOps.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lecture1/part1basics/ValuesVariablesTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part1basics/ValuesVariablesTypes.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/AbstractDataTypes.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/AbstractDataTypes.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +45,7 @@
     "nodejs_package_manager_path": "npm"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.AbstractDataTypes">
+  <component name="RunManager" selected="Application.ListTest">
     <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
       <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AbstractDataTypes" />
       <module name="udemy_scala_course" />
@@ -82,12 +72,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MethodNoations" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.MethodNoations" />
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.ListTest" />
       <module name="udemy_scala_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lectures.part2oop.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,8 +85,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OOBasics" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.OOBasics" />
+    <configuration name="MethodNoations" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.MethodNoations" />
       <module name="udemy_scala_course" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ListTest" />
         <item itemvalue="Application.AbstractDataTypes" />
         <item itemvalue="Application.Inheritance" />
         <item itemvalue="Application.Objects" />
         <item itemvalue="Application.MethodNoations" />
-        <item itemvalue="Application.OOBasics" />
       </list>
     </recent_temporary>
   </component>
@@ -145,7 +135,7 @@
       <workItem from="1669021330990" duration="12767000" />
       <workItem from="1669040772879" duration="3086000" />
       <workItem from="1669286181353" duration="45000" />
-      <workItem from="1669637162839" duration="10496000" />
+      <workItem from="1669637162839" duration="12762000" />
     </task>
     <task id="LOCAL-00001" summary="comiiting inti">
       <created>1669021701424</created>
@@ -168,7 +158,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669043795129</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="oop scala exercises">
+      <created>1669652071789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669652071789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,6 +185,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comiiting inti" />
     <MESSAGE value="basic scala exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic scala exercises" />
+    <MESSAGE value="oop scala exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop scala exercises" />
   </component>
 </project>

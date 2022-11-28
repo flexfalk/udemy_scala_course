@@ -30,7 +30,7 @@ object AbstractDataTypes extends App{
   val dog = new Dog
   val croc = new Crocodile
   croc.eat(dog)
-//  println(croc.preferredMeal)
+  //  println(croc.preferredMeal)
 
   //traits vs abstract classes
   //1 - traits do not have constructor parameters
