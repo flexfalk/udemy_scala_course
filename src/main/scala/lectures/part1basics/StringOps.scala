@@ -1,4 +1,4 @@
-package lecture1.part1basics
+package lectures.part1basics
 
 object StringOps extends App{
 
@@ -36,6 +36,9 @@ object StringOps extends App{
   // F-interpolators
   val speed = 1.2f
   val myth = f"$name can eat $speed%2.2f burgers per minutre"
+  println( myth)
+  //raw-interpolator
+  println(raw"This is a \n newline")
 
-  print(myth)
+
 }

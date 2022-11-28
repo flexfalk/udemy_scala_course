@@ -1,4 +1,5 @@
-package lecture1.part1basics
+package lectures.part1basics
+
 import scala.math._
 
 object Functions extends App{
