@@ -5,11 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e2d83fda-6b11-4626-897a-031b6f5daf90" name="Changes" comment="oop scala exercises">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/AnonymousClasses.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/exercises/MyList.scala" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/Generics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/Generics.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
