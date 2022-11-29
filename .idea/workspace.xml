@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e2d83fda-6b11-4626-897a-031b6f5daf90" name="Changes" comment="basic scala exercises">
-      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/Generics.scala" afterDir="false" />
+    <list default="true" id="e2d83fda-6b11-4626-897a-031b6f5daf90" name="Changes" comment="oop scala exercises">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/AnonymousClasses.scala" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/exercises/MyList.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/exercises/MyList.scala" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/Generics.scala" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/scala/lectures/part2oop/Generics.scala" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,16 +43,17 @@
   &quot;keyToString&quot;: {
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/sofu0/IdeaProjects/udemy_scala_course&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.StringOps">
-    <configuration name="CBNvsCBV" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lecture1.part1basics.CBNvsCBV" />
+  <component name="RunManager" selected="Application.AnonymousClasses">
+    <configuration name="AbstractDataTypes" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AbstractDataTypes" />
       <module name="udemy_scala_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture1.part1basics.*" />
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -57,12 +61,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DefaultArgs" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lecture1.part1basics.DefaultArgs" />
+    <configuration name="AnonymousClasses" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.AnonymousClasses" />
       <module name="udemy_scala_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture1.part1basics.*" />
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -70,12 +74,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Functions" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lecture1.part1basics.Functions" />
+    <configuration name="Inheritance" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Inheritance" />
       <module name="udemy_scala_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture1.part1basics.*" />
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -83,12 +87,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Recursion" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lecture1.part1basics.Recursion" />
+    <configuration name="ListTest" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="exercises.ListTest" />
       <module name="udemy_scala_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture1.part1basics.*" />
+          <option name="PATTERN" value="exercises.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -96,12 +100,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringOps" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="lecture1.part1basics.StringOps" />
+    <configuration name="Objects" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="lectures.part2oop.Objects" />
       <module name="udemy_scala_course" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="lecture1.part1basics.*" />
+          <option name="PATTERN" value="lectures.part2oop.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,11 +115,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.StringOps" />
-        <item itemvalue="Application.DefaultArgs" />
-        <item itemvalue="Application.CBNvsCBV" />
-        <item itemvalue="Application.Recursion" />
-        <item itemvalue="Application.Functions" />
+        <item itemvalue="Application.AnonymousClasses" />
+        <item itemvalue="Application.ListTest" />
+        <item itemvalue="Application.AbstractDataTypes" />
+        <item itemvalue="Application.Inheritance" />
+        <item itemvalue="Application.Objects" />
       </list>
     </recent_temporary>
   </component>
@@ -131,7 +135,9 @@
       <option name="presentableId" value="Default" />
       <updated>1669021329627</updated>
       <workItem from="1669021330990" duration="12767000" />
-      <workItem from="1669040772879" duration="2641000" />
+      <workItem from="1669040772879" duration="3086000" />
+      <workItem from="1669286181353" duration="45000" />
+      <workItem from="1669637162839" duration="12762000" />
     </task>
     <task id="LOCAL-00001" summary="comiiting inti">
       <created>1669021701424</created>
@@ -147,7 +153,21 @@
       <option name="project" value="LOCAL" />
       <updated>1669036934166</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="basic scala exercises">
+      <created>1669043795129</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669043795129</updated>
+    </task>
+    <task id="LOCAL-00004" summary="oop scala exercises">
+      <created>1669652071789</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669652071789</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -167,6 +187,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="comiiting inti" />
     <MESSAGE value="basic scala exercises" />
-    <option name="LAST_COMMIT_MESSAGE" value="basic scala exercises" />
+    <MESSAGE value="oop scala exercises" />
+    <option name="LAST_COMMIT_MESSAGE" value="oop scala exercises" />
   </component>
 </project>
