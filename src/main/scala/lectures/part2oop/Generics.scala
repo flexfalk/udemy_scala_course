@@ -56,9 +56,4 @@ object Generics extends App{
 //  val newCage = new Cage(new Car) //will not compile
 
 
-
-
-
-
-
 }

@@ -28,7 +28,7 @@ object AnonymousClasses extends App{
   val jim = new Person("Jim") {
     override def sayHi: Unit = println(s"Hi, my name is Jim , how can i be of service")
   }
+  //1. Generic trait MyPredicate[T]
 
-  //so anonymous classes works for both abstract, but also non-abstract classes
 
 }
